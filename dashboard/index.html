@@ -261,8 +261,8 @@
                 </div>
             </div>
 
-            <!-- <div class="row">
-                <div class="col-xl-3 col-sm-6 mb-4">
+            <div class="row">
+                <!-- <div class="col-xl-3 col-sm-6 mb-4">
                     <a href="#" data-target="#plan-1" data-toggle="modal" class="new-wallet">
                         <div class="box bg_primary">
                             <div class="box-head d-flex align-items-center justify-content-between">
@@ -287,34 +287,30 @@
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 mb-4">
-                    <a href="#" data-target="#plan-3" data-toggle="modal" class="new-wallet">
-                        <div class="box bg_secondary">
-                            <div class="box-head d-flex align-items-center justify-content-between">
-                                <h3>Plan 3</h3>
-                                <i class="cc LTC-alt" title="LTC"></i>
-                            </div>
-                            <div class="box-body d-flex align-items-center justify-content-between">
-                                <span>+30% / Week</span>
-                            </div>
+                </div> -->
+                <div class="col-xl-6 col-sm-6 mb-4">
+                    <div class="box bg-danger">
+                        <div class="box-head d-flex align-items-center justify-content-between">
+                            <h4>Previous token price</h4>
+                            <i class="fa fa-caret-down" title="Previous token price"></i>
                         </div>
-                    </a>
-                </div>
-                <div class="col-xl-3 col-sm-6 mb-4">
-                    <a href="#" data-target="#plan-4" data-toggle="modal" class="new-wallet">
-                        <div class="box bg_success">
-                            <div class="box-head d-flex align-items-center justify-content-between">
-                                <h3>Plan 4</h3>
-                                <i class="cc NEO" title="NEO"></i>
-                            </div>
-                            <div class="box-body d-flex align-items-center justify-content-between">
-                                <span>+40% / Week</span>
-                            </div>
+                        <div class="box-body d-flex align-items-center justify-content-between">
+                            <span>$25</span>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div> -->
+                <div class="col-xl-6 col-sm-6 mb-4">
+                    <div class="box bg_success">
+                        <div class="box-head d-flex align-items-center justify-content-between">
+                            <h4>Current token price</h4>
+                            <i class="fa fa-caret-up" title="Current token price"></i>
+                        </div>
+                        <div class="box-body d-flex align-items-center justify-content-between">
+                            <span>$30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- <div class="row">
                 <div class="col-md-8 col-sm-7">
                     <div class="card mb-4">
@@ -426,6 +422,12 @@
                                                 <div class="copy-button">
                                                     <input type="text" name="address" class="form-control copy_input" readonly="" value="0xD8A2CF2Bc17F5647EC0aEcf2C737a284CdCCB776" placeholder="0xD8A2CF2Bc17F5647EC0aEcf2C737a284CdCCB776">
                                                     <span class="copy-link btn-default" data-toggle="tooltip" title="Copy to Clipboard">Copy</span>
+                                                </div>
+                                            </div>
+                                            <div class="payment_option mt-4">
+                                                <h6 class="mb-2">Upload proof of payment</h6>
+                                                <div class="col-xl-12 col-lg-12">
+                                                    <button class="btn btn-default" data-target="#plan-4" data-toggle="modal">Upload</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -826,34 +828,22 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Plan 4 $(10000 - 20000)</h5>
                         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">×</span>
-                </button>
+                            <span aria-hidden="true">×</span>
+                        </button>
                     </div>
                     <div class="modal-body">
                         <div class="row">
-                            <div class="form-group col-md-6">
-                                <label class="col-form-label">Enter Amount to Invest</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <label class="col-form-label">Upload Proof of Payment</label>
                                 <div class="input-group">
                                     <input type="file" class="form-control">
                                 </div>
                             </div>
-                            <p class="col-md-6">
-                                342wedgf8t89u90u090y89754423ut
-                                <img src="images/undraw_schedule.png" alt="" width="128">
-                            </p>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-default" type="submit">Invest Now!</button>
-                        <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>
+                        <button class="btn btn-default" type="submit">Upload!</button>
                     </div>
                 </div>
             </div>
