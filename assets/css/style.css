@@ -3634,6 +3634,35 @@ header a:hover,
 
 
 /*===================================*
+*. Custom style for ROADMAP SECTION
+*===================================*/
+
+.road-map {
+    background-color: #f7f7f7;
+}
+
+.road-map .bg-text {
+    background-image: url(../images/roadmap-title-bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 275.4px;
+    transform: translate(0px, -1.34255px);
+}
+
+.road-map #pills-tab .nav-item .nav-link.active>h3,
+.road-map #pills-tab .nav-item .nav-link:focus>h3,
+.road-map #pills-tab .nav-item .nav-link:hover>h3 {
+    color: #ffcb68;
+    transition: all .3s;
+}
+
+
+/*===================================*
+*. END Custom style for ROADMAP SECTION
+*===================================*/
+
+
+/*===================================*
 07. TIMELINE SECTION
 *===================================*/
 
